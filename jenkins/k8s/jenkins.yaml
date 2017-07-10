@@ -24,6 +24,8 @@ spec:
       labels:
         app: master
     spec:
+      nodeSelector:
+        env: util
       containers:
       - name: master
         image: jenkins:2.60.1
