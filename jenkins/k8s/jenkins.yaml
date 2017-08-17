@@ -28,7 +28,7 @@ spec:
         env: util
       containers:
       - name: master
-        image: jenkins:2.60.1
+        image: jenkins:2.60.2
         ports:
         - containerPort: 8080
         - containerPort: 50000
