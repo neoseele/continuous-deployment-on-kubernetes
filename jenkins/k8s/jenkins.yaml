@@ -25,10 +25,10 @@ spec:
         app: master
     spec:
       nodeSelector:
-        env: util
+        env: prod
       containers:
       - name: master
-        image: jenkins:2.60.2
+        image: jenkins/jenkins:lts
         ports:
         - containerPort: 8080
         - containerPort: 50000
