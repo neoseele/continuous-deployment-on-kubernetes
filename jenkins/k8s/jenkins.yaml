@@ -28,7 +28,7 @@ spec:
         env: prod
       containers:
       - name: master
-        image: jenkins/jenkins:2.93
+        image: jenkins/jenkins:2.114
         ports:
         - containerPort: 8080
         - containerPort: 50000
